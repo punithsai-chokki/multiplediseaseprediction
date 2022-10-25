@@ -4,17 +4,11 @@ from streamlit_option_menu import option_menu
 
 # loading the saved models
 
-diabetes_model = pickle.load(
-    open("C:/Users/punit/Desktop/Notes/NEW_PROJECTS/MULTIPLE_DISEASE_PREDICTION_SYSTEM/SAVED_MODELS/diabetes_model.sav",
-         "rb"))
+diabetes_model = pickle.load(open("diabetes_model.sav","rb"))
 
-heart_disease_model = pickle.load(open(
-    "C:/Users/punit/Desktop/Notes/NEW_PROJECTS/MULTIPLE_DISEASE_PREDICTION_SYSTEM/SAVED_MODELS/heart_disease_model.sav",
-    "rb"))
+heart_disease_model = pickle.load(open("heart_disease_model.sav","rb"))
 
-parkinsons_model = pickle.load(open(
-    "C:/Users/punit/Desktop/Notes/NEW_PROJECTS/MULTIPLE_DISEASE_PREDICTION_SYSTEM/SAVED_MODELS/Parkinsons_model.sav",
-    "rb"))
+parkinsons_model = pickle.load(open("Parkinsons_model.sav","rb"))
 
 # sidebar for navigation
 
