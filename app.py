@@ -127,7 +127,7 @@ if (selected == "Heart Disease Predictor"):
         if (heart_dis_prediction[0] == 1):
             heart_dis_diagnosis = "The person has Heart Disease"
         else:
-            heart_dis_diagnosis = "The person is not diabetic"
+            heart_dis_diagnosis = "The person does not have Heart Disease"
 
     st.success(heart_dis_diagnosis)
 
@@ -221,3 +221,4 @@ if (selected == "Parkinsons Predictor"):
             parkinsons_diagnosis = "The person does not have Parkinsons"
 
     st.success(parkinsons_diagnosis)
+
